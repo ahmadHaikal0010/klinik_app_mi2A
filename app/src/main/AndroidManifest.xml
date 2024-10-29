@@ -13,6 +13,9 @@
         android:theme="@style/Theme.KlinikApp_MI2A"
         tools:targetApi="31">
         <activity
+            android:name=".DetailPage"
+            android:exported="false" />
+        <activity
             android:name=".PageDoctors"
             android:exported="false" />
         <activity
